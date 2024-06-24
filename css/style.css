@@ -1,0 +1,635 @@
+*,
+*::before,
+*::after {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7rem 0 7rem;
+  box-shadow: 0 0 5px #33333377;
+}
+
+.logo-and-its-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-and-its-name > img {
+  width: 100%;
+  height: 77px;
+}
+
+.logo-name {
+  color: #72431a;
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: clamp(14px, 3vw, 18px);
+  width: min-content;
+}
+
+.hotel-links {
+  display: flex;
+}
+
+.hotel-links > li {
+  list-style: none;
+  padding: 0 1rem 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.hotel-links > li > a {
+  font-family: Reboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: clamp(14px, 3vw, 18px);
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.hotel-links > li > a:hover {
+  font-family: Reboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: clamp(14px, 3vw, 18px);
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+  text-decoration: solid;
+}
+
+.hotel-links > li > a#reserve-now {
+  background-color: blue;
+  padding: 0.77rem 1.77rem;
+  outline: 2px solid white;
+  border-radius: 0.77rem;
+  color: white;
+  font-weight: 600;
+}
+
+.hotel-links > li > a#reserve-now:hover {
+  background-color: darkblue;
+}
+
+.hotel-links > li > a#reserve-now:active {
+  background-color: white;
+  padding: 0.77rem 1.77rem;
+  outline: 2px solid blue;
+  border-radius: 0.77rem;
+  color: blue;
+}
+
+.hotel-navigation {
+  display: flex;
+  align-items: center;
+}
+
+div#hotels {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 7rem 3rem 7rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+#head-hero > h1 {
+  font-size: clamp(18px, 5rem, 5rem);
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: min-content;
+  letter-spacing: 1px;
+}
+
+#head-hero > p {
+  font-size: clamp(14px, 3vw, 18px);
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.call-to-action {
+  background-color: blue;
+  padding: 0.77rem 1.77rem;
+  outline: 2px solid white;
+  border-radius: 0.77rem;
+}
+
+.call-to-action {
+  color: white;
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: clamp(14px, 3vw, 24px);
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.call-to-action:hover {
+  background-color: darkblue;
+}
+
+.call-to-action:active {
+  background-color: white;
+  outline: 2px solid blue;
+}
+
+div#picture-hero > img {
+  width: 100%;
+  border-radius: 0.77rem;
+  box-shadow: 2px 2px 5px #33333377;
+}
+
+.featured-offers-and-learn-more-button {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 7rem;
+}
+
+.featured-offers-and-learn-more-button > h2 {
+  width: min-content;
+  font-size: clamp(18px, 5rem, 34px);
+  letter-spacing: 1px;
+
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.featured-offers-and-learn-more-button > button {
+  background-color: white;
+}
+
+.featured-offers-and-learn-more-button > button a {
+  width: min-content;
+  font-size: clamp(14px, 5rem, 18px);
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  letter-spacing: 1px;
+}
+
+.featured-offers-and-learn-more-button > button a:active {
+  color: blue;
+}
+
+li.card > img {
+  display: flex;
+  width: 100%;
+  border-radius: 0.77rem;
+  box-shadow: 2px 2px 5px #33333377;
+}
+
+li.card > h2,
+li.card > p {
+  padding: 0.77rem 0.55rem;
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 1px;
+}
+
+li.card {
+  margin: 0 0.55rem;
+  list-style: none;
+  border-radius: 0.77rem;
+}
+.check-in,
+.check-out,
+.guests {
+  border-bottom: 2px solid darkblue;
+  padding: 0 0 2rem;
+  font-size: clamp(14px, 5vw, 18px);
+  font-family: roboto;
+}
+
+.check-in > p,
+.check-out > p,
+.guests > p {
+  font-family: monospace, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+div#offers-img-info {
+  padding: 1rem 7rem;
+}
+
+div#offers-img-info > ul {
+  display: flex;
+}
+
+.checks.date-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+  margin: 0 7rem;
+}
+
+.grand-beds-in-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 7rem;
+}
+
+.bed-cards {
+  border-radius: 0.77rem;
+  margin: 0 0.77rem;
+}
+
+.bed-cards > h3 {
+  font-family: roboto;
+  font-size: clamp(14px, 5vw, 18px);
+  letter-spacing: 1px;
+}
+
+.bed-cards > p {
+  font-size: clamp(14px, 5vw, 18px);
+  font-family: roboto;
+  letter-spacing: 1px;
+}
+
+.bed-cards > img {
+  width: 100%;
+  border-radius: 0.77rem;
+  box-shadow: 2px 2px 5px #33333377;
+}
+
+h2.find-the-room {
+  font-size: clamp(18px, 5rem, 34px);
+  letter-spacing: 1px;
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 2rem 7rem;
+}
+
+.more-photos {
+  padding: 0 7rem;
+  text-align: end;
+}
+
+a[href="more-photos.html"] {
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  padding: 0.7rem 1.4rem;
+  border-radius: 0.77rem;
+  border: 2px solid white;
+  font-weight: 600;
+  font-size: clamp(14px, 5rem, 18px);
+  font-family: roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a[href="more-photos.html"]:hover {
+  background-color: darkblue;
+}
+
+a[href="more-photos.html"]:active {
+  background-color: white;
+  color: blue;
+  border: 2px solid blue;
+}
+
+div#reviews h2 {
+  padding: 2rem 7rem;
+  font-size: clamp(18px, 5vw, 34px);
+  font-family: roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 1px;
+}
+
+.general > img {
+  width: 25px;
+}
+
+.general h3 {
+  font-size: clamp(24px, 5vw, 34px);
+  text-align: center;
+  font-family: monospace, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.general p {
+  font-size: clamp(14px, 5vw, 18px);
+  text-align: center;
+  font-family: monospace, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.numbers div {
+  font-size: clamp(12px, 5vw, 16px);
+  text-align: center;
+  font-family: monospace, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.visuals {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.ratings {
+  display: flex;
+  padding: 0 7rem;
+}
+
+.visuals > div {
+  height: 100%;
+  margin: 0.5rem;
+  display: flex;
+}
+
+.visuals > div > .first {
+  background-color: blue;
+  border-radius: 0.7rem;
+  height: 0.5rem;
+}
+
+.visuals > div > .second {
+  background-color: white;
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+/* 5.0 14k reviews
+4.0 6k reviews
+3.0 4k reviews
+2.0 800 reviews
+1.0 9k reviews */
+
+.rate-5 .first {
+  flex: 14000;
+}
+
+.rate-5 .second {
+  flex: calc(3500 - 1400);
+}
+
+.rate-4 .first {
+  flex: 6000;
+}
+
+.rate-4 .second {
+  flex: calc(35000 - 6000);
+}
+
+.rate-3 .first {
+  flex: 4000;
+}
+
+.rate-3 .second {
+  flex: calc(35000 - 4000);
+}
+
+.rate-2 .first {
+  flex: 800;
+}
+
+.rate-2 .second {
+  flex: calc(35000 - 800);
+}
+
+.rate-1 .first {
+  flex: 9000;
+}
+
+.rate-1 .second {
+  flex: calc(35000 - 9000);
+}
+
+.convenience-rating {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 7rem;
+}
+
+.convenience-rating > div {
+  display: flex;
+  gap: 1rem;
+  font-family: roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.rate {
+  font-family: monospace, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  color: green;
+}
+
+.profile-when-and-this-rating > .img {
+  height: 60px;
+  width: 60px;
+}
+
+.profile-when-and-this-rating > .img > img {
+  height: 100%;
+  border-radius: 50%;
+  background-size: contain;
+  width: 100%;
+}
+
+.peoples-ratings {
+  padding: 2rem 7rem;
+}
+
+.profile-when-and-this-rating {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.rating {
+  margin-left: auto;
+  font-family: monospace, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.review {
+  font-size: clamp(12px, 5vw, 16px);
+  font-family: roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 1px;
+}
+
+.name {
+  font-size: clamp(14px, 5vw, 18px);
+  font-family: roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 1px;
+}
+
+.account-1 {
+  margin: 0 0 2rem 0;
+}
+
+.purchased-date {
+  margin-left: auto;
+  font-family: monospace, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+div.stars > .star {
+  height: 20px;
+}
+
+footer {
+  background-color: #02022b;
+}
+
+.footer-logo-and-its-name > img {
+  background-color: white;
+}
+
+.footer-links > nav {
+  border-color: #fff;
+  border-width: 0 0 2px 0;
+  border-style: solid;
+}
+
+.footer-links > nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 1rem 3vw;
+}
+
+.footer-links > nav ul > li a {
+  text-decoration: none;
+  color: white;
+  font-size: clamp(14px, 4rem, 18px);
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  color: white;
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.footer-links {
+  padding: 0 7rem;
+}
+
+.footer-logo-and-its-name {
+  display: flex;
+  justify-content: start;
+}
+
+.broad-info {
+  display: flex;
+}
+
+.info,
+.email-sign-up {
+  flex: 1;
+}
+
+.email-sign-up {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.email-sign-up form > ul {
+  display: flex;
+}
+
+.email-sign-up form > ul li {
+  list-style: none;
+}
+
+input#email-address {
+  appearance: none;
+  border-radius: 0.77rem;
+  font-size: clamp(14px, 5rem, 18px);
+  letter-spacing: 1px;
+  background-color: white;
+  padding: 0.55rem 0.77rem;
+  outline: 2px solid #000000;
+  margin: 0.5rem;
+  box-shadow: 2px 2px 5px #ffffff77;
+}
+
+button[type="submit"] {
+  padding: 0.5rem 0.7rem;
+  margin: 0.5rem;
+  border-radius: 0.77rem;
+  font-size: clamp(14px, 5rem, 18px);
+  font-weight: 600;
+  border: 2px solid black;
+}
+
+.hotel-info {
+  font-size: clamp(14px, 5vw, 18px);
+  font-family: roboto;
+  letter-spacing: 1px;
+  color: white;
+  padding: 1rem 0;
+}
+
+legend {
+  font-size: clamp(14px, 5vw, 18px);
+  font-family: roboto;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.broad-info {
+  display: flex;
+  padding: 2rem 0;
+}
+
+h2.footer-logo-name {
+  font-size: clamp(14px, 5vw, 24px);
+  font-family: roboto;
+  color: white;
+  width: min-content;
+}
+
+.read-all-reviews {
+  padding: 2rem 0;
+}
+
+.read-all-reviews > a {
+  border-radius: 0.75rem;
+  border: 2px solid white;
+  background-color: blue;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  color: white;
+  font-family: roboto;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.read-all-reviews > a:hover {
+  background-color: darkblue;
+}
+
+.read-all-reviews > a:active {
+  background-color: white;
+  color: blue;
+  border-color: blue;
+}

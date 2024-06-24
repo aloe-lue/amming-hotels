@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="45mm"
+   height="45mm"
+   viewBox="0 0 45 45"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="hotel-logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     height="296mm"
+     units="mm"
+     inkscape:snap-nodes="true"
+     inkscape:zoom="2.7414474"
+     inkscape:cx="67.847371"
+     inkscape:cy="79.520037"
+     inkscape:window-width="1366"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.29166667px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="3.0677049"
+       y="12.468162"
+       id="text3687"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583;font-size:5.29166667px"
+         x="3.0677049"
+         y="12.468162"
+         id="tspan11267" /></text>
+    <circle
+       id="path55429"
+       cx="23.207273"
+       cy="22.336351"
+       style="stroke-width:0.264583"
+       r="15" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="16.04133"
+       y="22.340214"
+       id="text57713"><tspan
+         sodipodi:role="line"
+         id="tspan57711"
+         style="font-size:5.29167px;fill:#ffffff;stroke-width:0.264583"
+         x="16.04133"
+         y="22.340214">the</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.29167px;fill:#ffffff;stroke-width:0.264583"
+         x="16.04133"
+         y="28.954802"
+         id="tspan58793">amming</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.29167px;fill:#ffffff;stroke-width:0.264583"
+         x="16.04133"
+         y="35.569389"
+         id="tspan58795">hotels</tspan></text>
+  </g>
+</svg>
